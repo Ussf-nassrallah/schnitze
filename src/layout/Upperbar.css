@@ -1,0 +1,43 @@
+.upperbar {
+  background: rgba(227, 6, 19, 0.04);
+  padding: 1rem 0;
+  display: none;
+}
+
+.upperbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upperbar-items > img {
+  width: 200px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info > .flex {
+  align-items: center;
+}
+
+.phone {
+  margin-right: 2rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: .5rem;
+
+  background-color: white;
+  color: #E30613;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,171 @@
+/* Base */
+html, body {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0;
+}
+
+h1,
+h2 {
+  line-height: 1.6;
+}
+
+h2 {
+  max-width: 500px;
+}
+
+h4 {
+  color: #E30613;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.8;
+}
+
+/* Utilities */
+.container {
+  width: 100%;
+  max-width: 75em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: .8rem 1.5rem;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background-color: #E30613;
+  color: white;
+}
+
+.btn-secondary {
+  border: 2px solid #E30613;
+  color: #E30613;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.pt-5 {
+  padding-top: 5rem;
+}
+
+.pb-5 {
+  padding-bottom: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* breakpoints */
+@media (min-width: 768px) {
+  .upperbar {
+    display: block;
+  }
+
+  header {
+    background-color: #E30613;
+    position: initial;
+    height: initial;
+    display: flex;
+    align-items: initial;
+    justify-content: initial;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    position: initial;
+    width: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .nav-social {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}

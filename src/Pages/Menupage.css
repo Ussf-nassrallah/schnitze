@@ -1,0 +1,44 @@
+.menu h2 {
+  max-width: initial;
+}
+
+.menu .grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.filter-btn {
+  background: transparent;
+  border: none;
+  color: #E30613;
+  border: 2px solid #E30613;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #E30613;
+  color: white;
+}
+
+.btn-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn-container.grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 767.98px) {
+  .btn-container.grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+  }
+
+  .menu .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
